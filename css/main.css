@@ -519,24 +519,25 @@ header nav ul li a:hover {
 }
 /* End skills */
 /* Start footer */
-footer {
-  background-color: #000;
-  color: #fff;
-  display: flex;
-  flex-direction: row;
-  direction: ltr;
-  padding: 2em;
-  align-items: center;
+.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    align-items: center;
 }
-footer a {
-  padding: 0 12px 0 0;
-  color: #3a6cf4;
-  text-decoration: none;
+
+.footer i {
+    margin-right: 10px;
 }
-footer a:hover {
-  color: #000;
+
+.footer-title {
+    font-weight: 600;
 }
-.heart {
-  color: red; /* Change the color if desired */
+
+.footer-title a {
+    color: #3a6cf4;
+    padding: 0 12px 0 0;
+    text-decoration: none;
 }
 /* End footer */
