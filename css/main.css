@@ -518,6 +518,36 @@ header nav ul li a:hover {
     top: -15px;
 }
 /* End skills */
+/* Start contact */
+.contact {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+.contact .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contact .container .contact-card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 14em;
+    height: 14em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .container .contact-card a {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+.contact .container .contact-card a:hover {
+    color: white;
+}
+/* End contact */
 /* Start footer */
 .footer {
     background-color: #000016;
